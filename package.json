@@ -6,9 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "prisma:create": "prisma migrate dev --name mikulas",
-    "prisma:generate": "prisma db push",
-    "prisma": "npm run prisma:create && npm run prisma:generate",
+    "prisma:push": "prisma db push",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
